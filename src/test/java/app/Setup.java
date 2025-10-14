@@ -29,7 +29,7 @@ public class Setup {
     //@Step("Старт сессии")
     public void setUp() throws Exception {
         driver = Platform.getInstance().getDriver();
-        this.createAllurePropertyFile();
+//        this.createAllurePropertyFile(); // можно создать allure отчёт, если настроить
     }
 
     @After

@@ -2,11 +2,13 @@ package app.android.pages;
 
 import io.appium.java_client.AppiumDriver;
 import app.Methods;
+import static app.android.BaseEnvironments.ANDROID_APP_BUILD;
 
 public class WelcomePage extends Methods {
     private static final String
             BTN_NEXT = "xpath://android.view.View[@content-desc=\"Продолжить\"]",
             WELCOME_TEXT = "xpath://android.view.View[@content-desc=\"Добро пожаловать в приложение Арабист\"]",
+//            WELCOME_TEXT = "id:Добро пожаловать в приложение Арабист",
             WELCOME_CLUE_TEXT = "xpath://android.view.View[@content-desc=\"Ваш персональный помощник в изучении арабского языка, в котором вы научитесь:\"]",
             READ_TEXT = "xpath://android.view.View[@content-desc=\"читать\"]",
             READ_CLUE_TEXT = "xpath:(//android.view.View[@content-desc=\"на арабском\"])[1]",
